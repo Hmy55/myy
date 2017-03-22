@@ -1,0 +1,348 @@
+body{
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 12px;
+    font-family:arial;
+    line-height: 22px;
+}
+.top{
+    position: absolute;
+    top:0;
+    right:0;
+    margin:19px 0 5px;
+    padding: 0 96px 0 0;
+}
+.linking:hover,.linking2,.linking1:hover {
+    color:#00c;
+}
+.linking{
+    float:left;
+    color: #333333;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+    text-decoration-color: #333333;
+}
+.linking1{
+    float:left;
+    color: #333333;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration-color: #333333;
+}
+.shezhi{
+    display:inline;
+}
+.shezhi:hover .box{
+    display: block;
+}
+.box{
+    position: absolute;
+    top: 28px;
+    width: 68px;
+    border: 1px solid #d1d1d1;
+    box-shadow: 1px 1px 5px #d1d1d1;
+    left: 340px;
+    display: none;
+}
+em{
+    border-bottom-color: #d8d8d8;
+    top:-1px;
+}
+i{
+    border-bottom-color: #ffffff;
+    top:0px;
+}
+.box i,.box em{
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    position: absolute;
+    border: 5px;
+    border-style: dashed dashed solid;
+}
+.box a{
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    background-color:#ffffff;
+    color: #333333;
+}
+.box a:hover{
+    background: #3388ff;
+    color:#ffffff;
+    text-decoration: none;
+}
+.linking2{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: #fff;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+ .bd{
+    width: 86px;
+    min-height: 600px;
+    border-left: 1px solid #e7e7e7;
+    position: absolute;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    right: 0;
+    top: -19px;
+    display:none;
+}
+.hover:hover .bd {
+    display: block;
+}
+.gdcp{
+    color: #333;
+    text-align: center;
+    width: 60px;
+    height: 43px;
+    line-height: 43px;
+    padding-top: 9px;
+    margin: 0 auto;
+    border-bottom: #e7e7e7 1px solid;
+    font-size: 13px;
+    cursor: default;
+}
+.fuchu{
+    position: relative;
+}
+.bd_right{
+    height:153px;
+}
+.bd_right a{
+    display: block;
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    color: #666;
+    text-decoration: none;
+    overflow: hidden;
+}
+.bd_right a span{
+
+    height: 36px;
+    display: block;
+    margin: 10px auto 5px;
+    cursor: pointer;
+}
+.music{
+    width: 40px;
+    background: url(bdbri_icons_0a62ce1.png);
+     background-position: -72px 0;
+}
+.image{
+    width: 36px;
+    background: url(bdbri_icons_0a62ce1.png);
+    background-position: -112px 0;
+}
+.know{
+    width: 36px;
+    background: url(bdbri_icons_0a62ce1.png);
+    background-position: -36px 0;
+}
+.wenku{
+    width: 36px;
+    background: url(bdbri_icons_0a62ce1.png);
+    background-position: -148px 0;
+}
+.topp{
+    width: 36px;
+    background: url(bdbri_icons_0a62ce1.png);
+     background-position: -184px 0;
+}
+.qbcp{
+    margin-top: 15px;
+    height: 30px;
+    width: 85px;
+    overflow: hidden;
+}
+
+
+
+
+.center{
+    margin-top:40px;
+    width:100%;
+    height:191.5px;
+}
+.bd_log{
+    text-align: center;
+}
+.bd_logo{
+    width:270px;
+    height: 129px;
+    position: relative;
+}
+.text{
+    margin:22px auto 0;
+    width:641px;
+    height:38px;
+    text-align: left;
+    position: relative;
+}
+.bd_text{
+    position: relative;
+    width:539px;
+    height:36px;
+    border: 1px solid #b6b6b6;
+    border-color: #7b7b7b #b6b6b6 #b6b6b6 #7b7b7b;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0;
+    border-right-width: 0;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    overflow: hidden;
+}
+.bd_text:hover{
+    border-color: #999 transparent #b3b3b3 #999;
+}
+.camera{
+    position: absolute;
+    right: 11px;
+    height: 16px;
+    width: 18px;
+    text-align: right;
+    background:url(camera_new_5606e8f.png);
+    cursor: pointer;
+    top:50%;
+    margin-top: -8px;
+}
+.wb_text{
+    position: absolute;
+    width:500px;
+    height: 22px;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+.bd_bt{
+    border-bottom: 1px solid transparent;
+    vertical-align: top;
+}
+.bd_button{
+    position: absolute;
+    width: 99px;
+    height: 38px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    border-top: 1px solid #2d78f4;
+    border-right: 1px solid #2d78f4;
+    cursor: pointer;
+}
+
+.ewm{
+    position: absolute;
+    bottom: 140px;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+.ewm_bd{
+    display: inline-block;
+}
+.ewm .ewm_img{
+    background: url(zbios_efde696.png);
+    width: 60px;
+    height: 60px;
+}
+.ewm_text{
+    color: #999;
+    line-height: 23px;
+    margin: 3px 0 0 5px;
+    text-align: left;
+}
+.ewm_text b{
+    color: #666;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: arial;
+    text-align: left;
+}
+
+
+.bm_text{
+    height: 50px;
+    position: absolute;
+    bottom: 47px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bm_tt{
+    display: inline-block;
+    text-align: center;
+    margin-left: 0;
+    position: relative;
+    top: -2px;
+    line-height: 22px;
+    padding: 0;
+    height: 46px;
+}
+.bm_t1{
+    margin: 0;
+    padding: 0;
+}
+.bd_zy{
+    margin-left: 0;
+    color: #999999;
+}
+.ab_bd{
+    color: #999999;
+    margin-left: 25px;
+}
+.bm_t2 ,a{
+    color: #999999;
+    font-size: 12px;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+.logo1{
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    background: url(icons_5859e57.png);
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}
+.jgwab{
+    margin-left: 19px;
+}
+.logo2{
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(icons_5859e57.png);
+    background-position: -623px -96px;
+    position: relative;
+    top: 3px;
+}
+
